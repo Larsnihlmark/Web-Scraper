@@ -11,7 +11,7 @@ app.use(cors())
 const url = 'https://www.warmane.com/'
 
 app.get('/', function (req, res) {
-    res.json('This is my webscraper')
+    res.json('Webscraping')
 })
 
 app.get('/results', (req, res) => {
@@ -19,11 +19,11 @@ app.get('/results', (req, res) => {
         .then(response => {
             const body = response.data
             /* const $ = cheerio.load(body) */
-            const article = [body]
+            const content = [body]
             
            
             /* console.log(Style) */
-            res.json(article)
+            res.json(content)
         }).catch(err => console.log(err))
 
 })

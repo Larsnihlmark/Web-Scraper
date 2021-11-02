@@ -5,9 +5,9 @@ fetch('http://localhost:1337/results')
 .then(response => {return response.json()
 })
 .then(data => {
-    data.forEach(article => {
-            const articleItem = article
-            feedDisplay.insertAdjacentHTML("beforeend", articleItem)
+    data.forEach(content => {
+            const contentPrint = content
+            feedDisplay.insertAdjacentHTML("beforeend", contentPrint)
             /* console.log("test") */
         })
     })
