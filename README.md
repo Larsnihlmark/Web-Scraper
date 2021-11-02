@@ -1,7 +1,7 @@
 # Web-Scraper
 
 
-Fun project with testing how to Web-scrape from Warmane website tweked a bit from Ania Kubow guide
+Fun project with testing how to Web-scrape from Warmane website
 
 ### `npm i`
 
