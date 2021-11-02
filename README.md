@@ -1,15 +1,20 @@
 # Web-Scraper
 
 
-Fun project with testing how to Web-scrape for Warmane website
+Fun project with testing how to Web-scrape from Warmane website tweked a bit from Ania Kubow guide
 
-## 1 
-npm i
+### `npm i`
 
-## 2
-http://localhost:1337/results 
+1. Run the command above to install all the packages
 
-the json for the scrape
+### Start the Project
 
-go check it out Your
+2. Run the server:
 
+
+### `npm run start`
+
+
+3. Open [http://localhost:1337/results
+
+4. Finally, open the index.html file in your browser to see the results showing up.
